@@ -1,5 +1,4 @@
 # Christmas-Tree
-# Christmas-Tree
 ## Overview
 This application starts the redlight-greenlight game when a user utters sentences like "Santa, start the game" containing words "game", "betsy" or "santa" or "play" 
 Th application plays the instructions and notifies the game application to start the game

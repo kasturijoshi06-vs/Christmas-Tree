@@ -3,7 +3,11 @@
 This application starts the redlight-greenlight game when a user utters sentences like "Santa, start the game" containing words "game", "betsy" or "santa" or "play" 
 Th application plays the instructions and notifies the game application to start the game
 ## Instructions
-1. Provide authentication credentials by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS
+1. Clone this repository
+```sh
+git clone git@github.com:kasturijoshi06-vs/Christmas-Tree.git
+```
+3. Provide authentication credentials by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS
 ```sh 
 export GOOGLE_APPLICATION_CREDENTIALS="$PATH/key_file.json" 
 ```

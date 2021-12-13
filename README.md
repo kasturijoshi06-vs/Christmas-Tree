@@ -9,6 +9,9 @@ Th application plays the instructions and notifies the game application to start
 export GOOGLE_APPLICATION_CREDENTIALS="$PATH/key_file.json" 
 ```
 Replace $PATH with the directory where the key file is stored
+
 2. Download the audio file
+
 3. Run the **tree_start.py** file
+
 4. Speak sentences containing the word "play" or "game" or "santa" or "betsy" to start the game.

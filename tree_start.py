@@ -134,8 +134,7 @@ def listen_print_loop(responses):
 
 
             result_accept= set(transcript.split()) & set(accept_string.split())
-           # result_reject = set(transcript.split()) & set(reject_string.split())
-            #print(result_reject)
+           
 
             if result_accept:
                 print("Sending request")
@@ -143,7 +142,7 @@ def listen_print_loop(responses):
 
                 #  Get the reply.
                 message = socket.recv()
-                print("Received reply")  # %s [ %s ]" % (request, message))
+                print("Received reply")  
                 song = playaudio("game_start.mp3")
 
             # Exit recognition if any of the transcribed phrases could be
@@ -155,7 +154,7 @@ def listen_print_loop(responses):
             num_chars_printed = 0
 
 def playaudio(audio):
-    f = "/home/kasturi/Voice_Assistant/mycroft-core/Video-Call"
+    f = "audio_file_path"
     p = vlc.MediaPlayer(f + "/" + audio)
     p.play()
     return
